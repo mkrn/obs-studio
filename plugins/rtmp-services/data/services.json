@@ -1146,6 +1146,28 @@
             }
         },
         {
+            "name": "EventLive.pro",
+            "alt_names": ["EventLive", "Event Live"],
+            "servers": [
+                {
+                    "name": "Default",
+                    "url": "rtmp://go.eventlive.pro/live"
+                }
+            ],
+            "recommended": {
+                "keyint": 2,
+                "profile": "baseline",
+                "max video bitrate": 3000,
+                "max audio bitrate": 192,
+                "supported resolutions": [
+                    "1920x1080",
+                    "1280x720"
+                ],
+                "max fps": 30,
+                "x264opts": "tune=zerolatency scenecut=0"
+            }
+        },
+        {
             "name": "Lahzenegar - StreamG | لحظه‌نگار - استریمجی",
             "servers": [
                 {
